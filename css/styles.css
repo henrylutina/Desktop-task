@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(233, 232, 232) !important;
+}
+p,h5{
+    font-size: 10pt !important;
+}
+.flex{
+    display: flex;
+}
+.border-bottom{
+    border-bottom: 1px solid rgb(238, 236, 236);
+}
+.image{
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    width: 3.2rem;
+}
+.image2{
+    width: 7rem;
+    height: 100%;
+}
+.image3{
+    width: 3rem;
+    height: 100%;
+    border-radius: 50%;
+}
+.image4{
+    width: 5rem;
+    height: 100%;
+    border-radius: 50%;
+}
+.br{
+    border-radius: 50%;
+}
+.wd{
+    width: 100%;
+}
+.mb-6{
+    margin-bottom: 4rem;
+}
+.icons{
+    width: 6rem;
+    height: 80%;
+}
+.gray{
+    color: rgb(172, 170, 170);
+}
+.borde{
+    padding:0 .3rem;
+    color: black !important;
+    border: 1px solid rgb(163, 163, 163) !important;
+    border-radius: 2px;
+}
+.text-gray{
+    color: rgb(172, 170, 170) !important;
+}
+.purple{
+    color: rgb(150, 81, 196);
+    font-weight: bold;
+    padding:.2rem;
+    margin-bottom: .3rem !important;
+}
+.pr{
+    position: relative;
+}
+.pt{
+    position: absolute;
+    right: 1%;
+    top: 13%
+}
+.fw{
+    font-weight: bold;
+}
+.fs-s{
+    font-size:8pt !important;
+}
+.w-5{
+    min-width: 11rem !important;
+}
+.bg-purple{
+    background: rgb(127, 48, 255) !important;
+}
+.offgreen{
+    padding: .9rem;
+    color: rgb(85, 185, 139);
+    font-weight: bold;
+    font-size: 9.5pt !important;
+}
+.bg-image{
+    background: url(/images/similingman.png) center/cover;
+    border-radius: 2px;
+}
+.bg-paid{
+    background: url(/images/paid.png) no-repeat;
+    border-radius: 2px;
+    background-size:5rem;
+    background-position-x: 13.5rem;
+    background-position-Y: .59rem;
+}
+.bg-paid2{
+    background: url(/images/paid.png) no-repeat;
+    border-radius: 2px;
+    background-size:5rem;
+    background-position-x: 7rem;
+}
+@media screen and (max-width:768px){
+    .container{
+        flex-direction: column;
+    }
+}
